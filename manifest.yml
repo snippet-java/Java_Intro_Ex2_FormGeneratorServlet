@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/HTTPFormServlet.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: http-form-servlet-test
+  host: http-form-servlet-test
+  disk_quota: 512M
+  buildpack: liberty-for-java
